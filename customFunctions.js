@@ -12,9 +12,9 @@ let ySpeed = 10
 async function setup(){
 	createCanvas(windowWidth,windowHeight)
 	background(161, 222, 255)
-	 sheep = await loadImage('/images/sheep.png')
-	 fence = await loadImage('/images/fence.png')
-	 stars = await loadImage('/images/stars.webp')
+	 sheep = await loadImage('images/sheep.png')
+	 fence = await loadImage('images/fence.png')
+	 stars = await loadImage('images/stars.webp')
  imageMode(CENTER)
 
  xPos = windowWidth/2
